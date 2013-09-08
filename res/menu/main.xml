@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_tweet"
+        android:showAsAction="always|withText"
+        android:title="@string/tweet"
+        android:icon="@android:drawable/ic_menu_add">
+    </item>
+    <item
+        android:id="@+id/action_refresh"
+        android:showAsAction="always|withText"
+        android:title="@string/refresh"
+        android:icon="@android:drawable/ic_menu_rotate">
+    </item>
+    <item
+        android:id="@+id/action_purge"
+        android:showAsAction="never"
+        android:title="@string/purge"
+        android:icon="@android:drawable/ic_menu_delete">
+    </item>
+    
+
+</menu>
